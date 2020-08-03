@@ -78,7 +78,9 @@ class TicTacToe
      end 
    end 
    
-   def vali
+   def full?
+     # look at elements and see if they contain either "X" or O
+   end 
      
  
   
