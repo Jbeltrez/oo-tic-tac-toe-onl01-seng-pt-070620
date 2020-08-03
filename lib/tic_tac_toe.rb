@@ -79,7 +79,9 @@ class TicTacToe
    end 
    
    def full?
-     # look at elements and see if they contain either "X" or O
+     # look at elements in @board and see if they contain either "X" or O
+     # " " should not be on the board 
+     @board
    end 
      
  
