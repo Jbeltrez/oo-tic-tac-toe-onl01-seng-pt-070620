@@ -81,7 +81,7 @@ class TicTacToe
    def full?
      # look at elements in @board and see if they contain either "X" or O
      # " " should not be on the board 
-     @board
+     @board.all? {|element| element != " "}
    end 
      
  
