@@ -78,7 +78,7 @@ class TicTacToe
      end 
    end 
    
-   def 
+   def vali
      
  
   
