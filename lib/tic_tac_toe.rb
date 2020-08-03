@@ -83,6 +83,10 @@ class TicTacToe
      # " " should not be on the board 
      @board.all? {|element| element != " "}
    end 
+   
+   def draw? 
+     full? && !won?  
+   end 
      
  
   
