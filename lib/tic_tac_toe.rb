@@ -110,7 +110,7 @@ class TicTacToe
      end 
      #check if game is not over (!= over)
      
-   end 
+   end
      
  
   
