@@ -104,7 +104,10 @@ class TicTacToe
      end 
      
      if won? 
-       
+       puts "Congratulations #{winner}"
+     else draw?
+       puts
+     end 
      #check if game is not over (!= over)
      
    end 
