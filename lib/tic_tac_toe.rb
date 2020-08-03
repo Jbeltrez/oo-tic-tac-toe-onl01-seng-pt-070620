@@ -74,7 +74,8 @@ class TicTacToe
      if @board.include?(WIN_COMBINATIONS)
        nil
       else WIN_COMBINATIONS.find do |winner|
-       @board[winner[0]]
+       @board[winner[0]] == @board[winner[1]] &&
+       @board[winner[0]] == @board
      end 
    end 
      
