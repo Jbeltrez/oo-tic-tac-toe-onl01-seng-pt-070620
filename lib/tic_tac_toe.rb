@@ -89,13 +89,13 @@ class TicTacToe
    end 
    
    def over?
-     won? || full? 
+     won? || draw? 
    end 
    
    def winner
       if winner = won?
        @board[winner[2]]
-     end 
+      end 
    end 
    
    def play
